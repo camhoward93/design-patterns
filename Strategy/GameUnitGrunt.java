@@ -1,4 +1,4 @@
-package Game;
+package strategy;
 
 public class GameUnitGrunt extends GameUnit {
     public GameUnitGrunt() {
