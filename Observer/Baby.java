@@ -1,4 +1,4 @@
-package exercise3;
+package observer;
 
 import java.util.ArrayList;
 
