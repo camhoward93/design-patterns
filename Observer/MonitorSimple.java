@@ -1,4 +1,4 @@
-package exercise3;
+package observer;
 
 public class MonitorSimple implements Observer, DisplayElement {
     private boolean crying;
