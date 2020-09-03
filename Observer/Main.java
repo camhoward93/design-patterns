@@ -1,4 +1,4 @@
-package exercise3;
+package observer;
 
 public class Main {
     public static void main(String[] args){
