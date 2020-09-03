@@ -4,7 +4,10 @@ The design patterns shown in this repository are either assignments from my Desi
 Each directory will be named after the corresponding design pattern and will have its own readme doc demonstrating an understanding of the design pattern as well as instructions on how to run the code.
 
 ## Importance
-The importance of these design patterns is that they implement the concepts of Object-Oriented Programming.
+The importance of these design patterns is that they implement the concepts of Object-Oriented Programming in order to solve recurring problems in programming.
+
+## Object-Oriented Programming Concepts
+
 ### Encapsulation
 Encapsulation implements the level of abstraction by including within a program object all the necessary resources for it to function (method and data). Other objects can use the encapsulated object without knowing the inner workings of it.
 
