@@ -17,7 +17,7 @@ Inheritance is the concept that when a class is defined, a subclass can be defin
 
 Benefits: maintenance and reliability. 
 ### Polymorphism
-Polymorphism means "having multiple forms". It is the ability to assign different meaning to a single operator/symbol in different contexts. Such as overriding parameters or methods, or assigning a superclass variable to one subclass object type, then reassigning it to another.
+Polymorphism means "having multiple forms". It is the ability to assign different meaning to a single operator/symbol in different contexts. Such as overriding parameters/methods or assigning a superclass variable to one subclass object type, then reassigning it to another.
 
 Benefits: maintenance and variability.
 
@@ -28,4 +28,4 @@ Benefits: readability, reusability, reduced complexity.
 ### Coupling
 Coupling is the degree of interdependency between modules. If two modules are said to be tightly coupled, then they are very interdependent upon one another. Loose coupling is more desirable because tightly coupled modules must change together (even if the programmer only wants to change one).
 
-Benefits: replaceability, testability, extendability.
+Benefits: replaceability, testability, extendibility.
