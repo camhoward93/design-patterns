@@ -1,4 +1,4 @@
-package HW2;
+package decorator;
 
 public class BallsRed extends TreeDecorator {
     Tree tree;
