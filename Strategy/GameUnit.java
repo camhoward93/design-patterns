@@ -1,4 +1,4 @@
-package Game;
+package strategy;
 
 public abstract class GameUnit {
     UnitOrders orders;
