@@ -1,4 +1,4 @@
-package HW2;
+package decorator;
 
 public abstract class Tree {
     String description = "Unknown Tree";
