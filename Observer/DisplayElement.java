@@ -1,4 +1,4 @@
-package exercise3;
+package observer;
 
 public interface DisplayElement {
     public void display();
