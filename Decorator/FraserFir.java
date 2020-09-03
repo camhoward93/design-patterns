@@ -1,4 +1,4 @@
-package HW2;
+package decorator;
 
 public class FraserFir extends Tree {
     public FraserFir(){
