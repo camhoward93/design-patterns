@@ -10,4 +10,13 @@ Encapsulation implements the level of abstraction by including within a program 
 
 Benefits: maintainability, flexibility, and extensibility.
 ### Inheritance
-test
+Inheritance is the concept that when a class is defined, a subclass can be defined and inherit the definitions of one or more general classes. For example, a subclass of Cat can inherit the properties and methods of a general class Mammal.
+
+Benefits: maintenance and reliability. 
+### Polymorphism
+Polymorphism means "having multiple forms". It is the ability to assign different meaning to a single operator/symbol in different contexts. Such as overriding parameters or methods, or assigning a superclass variable to one subclass object type, then reassigning it to another.
+
+Benefits: maintenance and variability.
+
+### Cohesion
+Test
