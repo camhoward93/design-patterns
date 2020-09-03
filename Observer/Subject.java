@@ -1,4 +1,4 @@
-package exercise3;
+package observer;
 
 public interface Subject {
     public void registerObserver(Observer o);
