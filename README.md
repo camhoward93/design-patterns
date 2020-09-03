@@ -7,6 +7,7 @@ Each directory will be named after the corresponding design pattern and will hav
 The importance of these design patterns is that they implement the concepts of Object-Oriented Programming.
 ### Encapsulation
 Encapsulation implements the level of abstraction by including within a program object all the necessary resources for it to function (method and data). Other objects can use the encapsulated object without knowing the inner workings of it.
+
 Benefits: maintainability, flexibility, and extensibility.
 ### Inheritance
 test
