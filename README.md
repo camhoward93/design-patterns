@@ -19,4 +19,10 @@ Polymorphism means "having multiple forms". It is the ability to assign differen
 Benefits: maintenance and variability.
 
 ### Cohesion
-Test
+Cohesion is the degree to which the elements inside a module belong together. High cohesion means that the elements are related in a high degree and should be in the same module.
+
+Benefits: readability, reusability, reduced complexity.
+### Coupling
+Coupling is the degree of interdependency between modules. If two modules are said to be tightly coupled, then they are very interdependent upon one another. Loose coupling is more desirable because tightly coupled modules must change together (even if the programmer only wants to change one).
+
+Benefits: replaceability, testability, extendability.
