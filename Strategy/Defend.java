@@ -1,4 +1,4 @@
-package Game;
+package strategy;
 
 public class Defend implements UnitOrders{
     public void follow(){
