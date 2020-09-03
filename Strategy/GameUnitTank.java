@@ -1,4 +1,4 @@
-package Game;
+package strategy;
 
 public class GameUnitTank extends GameUnit {
     public GameUnitTank() {
