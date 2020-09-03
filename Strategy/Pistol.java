@@ -1,4 +1,4 @@
-package Game;
+package strategy;
 
 public class Pistol implements UnitWeapon{
     public void whichOne(){
