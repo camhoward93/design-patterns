@@ -1,4 +1,4 @@
-package HW2;
+package decorator;
 
 public class Main {
     public static void printTree(Tree tree){
