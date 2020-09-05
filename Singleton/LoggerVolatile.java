@@ -1,5 +1,8 @@
 package singleton;
 
+/*
+The volatile logger singleton will only synchronize upon the first creation of the uniqueInstance.
+ */
 public class LoggerVolatile {
     private volatile static LoggerVolatile uniqueInstance;
 
@@ -14,5 +17,9 @@ public class LoggerVolatile {
             }
         }
         return uniqueInstance;
+    }
+
+    public static void log(String s){
+        System.out.println(s);
     }
 }
