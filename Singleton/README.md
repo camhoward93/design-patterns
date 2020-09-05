@@ -2,7 +2,11 @@
 The Singleton pattern ensures that a class has only one instance, and it provides a global access point to it. Singleton's advantages over declaring the class static are that it can implement interfaces and extend classes, and the Singleton object can be dynamically created so you aren't using up resources when you don't need to.
 
 ## The Example
-Work in Progress
+This example shows a common scenario for using Singleton, a logger. The idea is that there is only one logger class as a Singleton. This example uses threading to show that the one logger instance is being used between two threads.
+
+In order to make Singleton thread safe, there are three potential solutions. I have put each solution into its own Singleton class to demonstrate all three in the Test threads. The first solution is to make the getInstance() method synchronized, which will force every thread to wait for its turn to enter the method. The downside of this method is that after the first time setting the uniqueInstance the synchronization becomes unnecessary overhead. The second solution is to have an eagerly created instance of uniqueInstance. This relies on the JVM to create the unique instance of the logger, so that now getInstance() will already have something to return. The third solution is to perform double-checked locking by making the uniqueInstance volatile, then synchronizing only if an instance hasn't been created yet. This solution solves the problem of the first solution's overhead, while not forcing the JVM to create an instance upon loading the class. Each of these solutions are implemented respectively in LoggerSync, LoggerEager, and LoggerVolatile.
+
+In order to run this simply download all the files into a package called singleton and run the main function of the LoggerTester class (I did this using the IntelliJ IDE).
 
 ### Expected Output
 Creating new Test Thread with ID:1<br/>
