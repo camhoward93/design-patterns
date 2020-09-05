@@ -10,12 +10,40 @@ public class Test extends Thread {
     }
 
     public void run(){
+        // Test the synchronized logger
+        System.out.println("Testing Synchronized Logger in thread: " + id );
         while(count<10){
             try{
                 sleep(100);
             } catch (InterruptedException e){}
             count++;
-            LoggerEager.getInstance().log("Thread: "+id+"writes "+count+"message to log");
+            LoggerSync.getInstance().log("Thread: " + id + " writes " + "message " + count + " to synchronized logger log.");
+        }
+
+        // Reset count
+        count = 0;
+
+        // Test the eager logger
+        System.out.println("Testing Eager Logger in thread: " + id );
+        while(count<10){
+            try{
+                sleep(100);
+            } catch (InterruptedException e){}
+            count++;
+            LoggerEager.getInstance().log("Thread: " + id + " writes " + "message " + count + " to eager logger log.");
+        }
+
+        // Reset count
+        count = 0;
+
+        // Test the volatile logger
+        System.out.println("Testing volatile Logger in thread: " + id );
+        while(count<10){
+            try{
+                sleep(100);
+            } catch (InterruptedException e){}
+            count++;
+            LoggerVolatile.getInstance().log("Thread: " + id + " writes " + "message " + count + " to volatile logger log.");
         }
     }
 }
