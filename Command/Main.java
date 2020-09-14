@@ -15,7 +15,7 @@ public class Main {
 
         // Set the commands
         player.setCommand(0, pawnMove);
-        player.setCommand(1,knightMove);
+        player.setCommand(1, knightMove);
 
         // Test the plays
         player.makePlay(0);
