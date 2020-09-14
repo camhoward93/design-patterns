@@ -11,7 +11,7 @@ public class Main {
         Knight knight = new Knight(); // Receiver
 
         MovePawn pawnMove = new MovePawn(pawn); // Command
-        MoveKnight knightMove = new MoveKnight(knight);
+        MoveKnight knightMove = new MoveKnight(knight); // Command
 
         // Set the commands
         player.setCommand(0, pawnMove);
