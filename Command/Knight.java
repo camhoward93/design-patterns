@@ -1,5 +1,6 @@
 package command;
 
+// Receiver
 class Knight {
     private char posAlpha;
     private int posNum;
